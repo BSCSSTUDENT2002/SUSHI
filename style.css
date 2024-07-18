@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Bitcheese';
+    src: local('Bitcheese Regular'), local('Bitcheese-Regular'),
+        url('./fonts/Bitcheese.woff') format('woff2'),
+        url('./fonts/Bitcheese.woff2') format('woff'),
+        url('./fonts/Bitcheese.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Milestone';
+    src: url('./fonts/MilestoneBrush.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #21243D;
+    overflow-x: hidden;
+}
+.Menu {
+    font-family: Bitcheese;
+}
+.rounded-circle {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: scale all ease-in-out;
+    transition-duration: .5s;
+}
+.content {
+    transition: all ease-in-out .5s;
+    transition-duration: .5s;
+    color: grey;
+    padding: 0 10% 0 10%;
+}
+.popularDish {
+    cursor: pointer;
+    transition: all ease-in-out;
+    transition-duration: .5s;
+}
+.popularDish:hover  .rounded-circle{
+    transform: scale(1.2);
+    margin-bottom: 20px;
+}
+
+.popularDish:hover .content {
+    color: white;
+}
+button:hover {
+    outline: tomato 2px;
+}
+section {
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+.container-fluid {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.sushiTitle {
+	height: 55%;
+	width: 55%;
+	border-radius: 50%;
+}
+nav{
+    cursor: pointer;
+}

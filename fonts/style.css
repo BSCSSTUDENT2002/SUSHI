@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bitcheese';
+    src: local('Bitcheese Regular'), local('Bitcheese-Regular'),
+        url('Bitcheese.woff2') format('woff2'),
+        url('Bitcheese.woff') format('woff'),
+        url('Bitcheese.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
