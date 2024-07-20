@@ -1,0 +1,18 @@
+simple docs for the project
+_______________________________________________________________________________________________________________________________________________________________
+
+1. How to run the project
+
+   - open the index.html file in any browser
+
+2. How to add new images
+
+   - add the image in the folder named "Design2.png"
+   - add the image in the folder named "layer4.png"
+   - add the image in the folder named "layer6.png"
+
+3. How to add new fonts
+
+   - add the font in the folder named "Fonts"
+
+4.
